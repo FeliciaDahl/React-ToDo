@@ -1,0 +1,110 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* *::before *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    
+    font-family: "Montserrat", sans-serif;
+    background-color: rgba(11, 117, 38, 0.071);
+}
+
+.card {
+    margin: 0 auto;
+    width: 80%;
+    max-width: 600px;
+    margin-bottom: 1rem;
+    border: 1px solid black;
+    border-radius: .5rem;
+    padding: 1rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    background-color: rgba(11, 117, 37, 0.244);
+    overflow: hidden;
+}
+
+form {
+display: flex;
+gap: 1rem;
+align-items: center;
+padding-bottom: 1rem;
+
+
+}
+.form-input {
+    flex: 1;
+    font-size: 1rem;
+    padding: .5em;  
+    border-radius: .5em;
+    border: .5px solid grey;
+    outline: none;
+}
+.btn {
+    font-size: 1rem;
+    border: 1px solid black;
+    padding: .5em;
+    border: .5px solid grey;
+   
+    border-radius:.5em;
+   
+    &:hover, &:focus-visible       {
+        background-color: rgba(11, 117, 37, 0.902);
+        color: white;
+    }
+}
+
+
+
+.list {
+    margin: 0 auto;
+    width: 80%;
+    max-width: 600px;
+    margin-bottom: 1rem;
+}
+
+li {
+    
+    padding:.5em;
+    margin-bottom:.5rem;
+    border: 1px solid black;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    border-radius: .5em;
+    font-size: 1.2rem;
+    background-color:rgba(11, 117, 37, 0.902); 
+    color: white;
+    
+}
+.divide {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+    padding-top: 1rem;
+}
+.id {
+    font-size: .8rem;
+    color: #ffff;
+}
+.btn-remove {
+    margin-top: .5rem;
+width: 100px;
+}
+
+.empty {
+    display: grid;
+    place-items: center;
+    padding-top: 1rem;
+   
+}
+
+
+
+
+
+
+
+
